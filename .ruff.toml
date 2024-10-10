@@ -16,6 +16,8 @@ exclude = ["setup/*"]
 exclude = ["setup/*"]
 
 [per-file-ignores]
+"base_api/**" = ["E501", "UP008", "UP031", "UP038", "C901"]
+"openapi/**" = ["E501", "UP008", "UP031",  "UP038", "C901"]
 "__init__.py" = ["F401", "I001"]  # ignore unused and unsorted imports in __init__.py
 "__manifest__.py" = ["B018"]  # useless expression
 
